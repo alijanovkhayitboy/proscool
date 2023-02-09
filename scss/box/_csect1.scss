@@ -1,0 +1,29 @@
+.sect1{
+    max-width: 1200px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    .container1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 25px 15px;
+        h2{
+            width: 146px;
+            height: 52px;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 39px;
+        }
+        p{
+            max-width: 700px;
+            height: auto;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            text-align: center;
+        }
+    }
+}

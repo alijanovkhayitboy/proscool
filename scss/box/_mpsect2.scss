@@ -1,0 +1,111 @@
+.sect2{
+    max-width: 1200px;
+    background-color: #EDF1F8;
+    .container3{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        h2{
+            width: 88px;
+            height: 31px;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 18px;
+        }
+        p{
+            width: 468px;
+            height: 48px;
+            text-align: center;
+        }
+        .sect2list{
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            img{
+                margin: 0 15px;
+            }
+        }
+        .sect2list2{
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            img{
+                margin: 0 15px;
+            }
+        }
+    }
+}
+@media (max-width: 1120px) {
+    .sect2{
+        .container3{
+            ul{
+                li{
+                    a{
+                        img{
+                            width: 290px;
+                            height: 230px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 980px) {
+    .sect2{
+        .container3{
+            ul{
+                li{
+                    a{
+                        img{
+                            width: 260px;
+                            height: 200px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 980px) {
+    .sect2{
+        .container3{
+            ul{
+                display: flex;
+                flex-direction: column;
+                li{
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 480px) {
+    .sect2{
+        .container3{
+            p{
+                width: 260px;
+                height: auto;
+
+            }
+        }
+    }
+}
+@media (max-width: 335px) {
+    .sect2{
+        .container3{
+            ul{
+                li{
+                    a{
+                        img{
+                            width: 230px;
+                            height: 170px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

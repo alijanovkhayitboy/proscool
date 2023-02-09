@@ -1,0 +1,87 @@
+.sect2{
+    box-sizing: border-box;
+    max-width: 1200px;
+    background-color: #ffffff;
+    .container2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .vebdev{
+            margin: 20px 0;
+            max-width: 804px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 10px 10px;
+            .devlist{
+                list-style: none;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+                flex-direction: row;
+                li{
+                    margin: 0 20px;
+                }
+                .vebdevinfo{
+                    p{
+                        max-width: 500px;
+                        text-align: center;
+                    }
+                }
+            }
+            button{
+                width: 159px;
+                height: 40px;
+                border: none;
+                border-radius: 20px;
+                background-color: #0062f6;
+                color: #ffffff;
+            }
+        }
+         
+    }
+}
+@media (max-width: 480px) {
+    .sect2{
+        .container2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            .vebdev{
+                margin: 20px 0;
+                max-width: 320px;
+                padding: 10px 10px;
+                box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+                .devlist{
+                    list-style: none;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    flex-direction: column;
+                    li{
+                        margin: 0 10px;
+                    }
+                    .vebdevinfo{
+                        p{
+                            max-width: 500px;
+                            text-align: center;
+                        }
+                    }
+                }
+                button{
+                    width: 159px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 20px;
+                    background-color: #0062f6;
+                    color: #ffffff;
+                }
+            }
+             
+        }
+    }
+}

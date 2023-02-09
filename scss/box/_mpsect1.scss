@@ -1,0 +1,168 @@
+.sect1{
+    padding: 10px 5px;
+    background-color: #EDF2F8;
+    max-width: 1200px;
+    .container2{
+        padding: 160px 70px;
+        .sect1list{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            .sect1item{
+                h2{
+                    width: 377px;
+                    height: 78px;
+                    font-weight: 700;
+                    font-size: 30px;
+                    line-height: 39px;
+                }
+                p{
+                    margin: 20px 0;
+                    width: 465px;
+                    height: 74px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                button{
+                    width: 144px;
+                    height: 40px;
+                    padding: 8px 16px;
+                    color: #ffffff;
+                    background: #3c39fc;
+                    border: none;
+                    border-radius: 8px;
+                    transition: all 0.3s ease 0s;
+                }
+                button:hover{
+                    background:#6664fb
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1100px) {
+    .sect1{
+        .container2{
+            .sect1list{
+                .sect1item2{
+                    iframe{
+                        width: 460px;
+                        height: 280px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1000px) {
+    .sect1{
+        .container2{
+            .sect1list{
+                .sect1item2{
+                    iframe{
+                        width: 350px;
+                        height: 200px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 890px) {
+    .sect1{
+        .container2{
+            padding: 80px 30px;
+            .sect1list{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                .sect1item2{
+                    iframe{
+                        margin: 20px 0;
+                        width: 350px;
+                        height: 200px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 502px) {
+    .sect1{
+        .container2{
+            padding: 50px 10px;
+            .sect1list{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                .sect1item{
+                    h2{
+                        width: 280px;
+                        height: auto;
+                        font-size: 21px;
+                        line-height: 25px;
+                    }
+                    p{
+                        width: 300px;
+                        height: auto;
+                        font-size: 12px;
+                        line-height: 18px;
+                    }
+                }
+                .sect1item2{
+                    iframe{
+                        margin: 20px 0;
+                        width: 300px;
+                        height: 150px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 370px) {
+    .sect1{
+        .container2{
+            .sect1list{
+                .sect1item2{
+                    iframe{
+                        width: 250px;
+                        height: 150px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 335px) {
+    .sect1{
+        .container2{
+            padding: 50px 10px;
+            .sect1list{
+                .sect1item{
+                    h2{
+                        width: 280px;
+                        height: auto;
+                        font-size: 21px;
+                        line-height: 25px;
+                    }
+                    p{
+                        width: 280px;
+                        height: auto;
+                        font-size: 12px;
+                        line-height: 18px;
+                    }
+                }
+                .sect1item2{
+                    iframe{
+                        margin: 20px 0;
+                        width: 290px;
+                        height: 162px;
+                    }
+                }
+            }
+        }
+    }
+}
