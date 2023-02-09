@@ -165,8 +165,8 @@
   }
   .sect1 .container1 .sect1list .sect1item2 iframe {
     margin: 20px 0;
-    width: 350px;
-    height: 200px;
+    width: 320px;
+    height: 180px;
   }
   .sect1 .container1 .sect1list2 {
     margin: 10px 10px;
@@ -180,8 +180,8 @@
 }
 @media (max-width: 376px) {
   .sect1 .container1 .sect1list .sect1item2 iframe {
-    width: 300px;
-    height: 168px;
+    width: 260px;
+    height: 162px;
   }
 }
 @media (max-width: 320px) {
